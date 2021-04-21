@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Last.DAL\Project.Last.DAL.csproj" />
+    <ProjectReference Include="..\Entities\Project.Last.Entities.csproj" />
+  </ItemGroup>
+</Project>
